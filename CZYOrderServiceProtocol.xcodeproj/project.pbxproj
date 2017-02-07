@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD09D6061E497700003AD3AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D6051E497700003AD3AE /* main.m */; };
+		AD09D6091E497700003AD3AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D6081E497700003AD3AE /* AppDelegate.m */; };
+		AD09D60C1E497700003AD3AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D60B1E497700003AD3AE /* ViewController.m */; };
+		AD09D60F1E497700003AD3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD09D60D1E497700003AD3AE /* Main.storyboard */; };
+		AD09D6111E497700003AD3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD09D6101E497700003AD3AE /* Assets.xcassets */; };
+		AD09D6141E497700003AD3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD09D6121E497700003AD3AE /* LaunchScreen.storyboard */; };
+		AD09D61F1E497700003AD3AE /* CZYOrderServiceProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D61E1E497700003AD3AE /* CZYOrderServiceProtocolTests.m */; };
+		AD09D62A1E497700003AD3AE /* CZYOrderServiceProtocolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D6291E497700003AD3AE /* CZYOrderServiceProtocolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD09D61B1E497700003AD3AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD09D5F91E497700003AD3AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD09D6001E497700003AD3AE;
+			remoteInfo = CZYOrderServiceProtocol;
+		};
+		AD09D6261E497700003AD3AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD09D5F91E497700003AD3AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD09D6001E497700003AD3AE;
+			remoteInfo = CZYOrderServiceProtocol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD09D6011E497700003AD3AE /* CZYOrderServiceProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZYOrderServiceProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD09D6051E497700003AD3AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD09D6071E497700003AD3AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD09D6081E497700003AD3AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD09D60A1E497700003AD3AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD09D60B1E497700003AD3AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD09D60E1E497700003AD3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD09D6101E497700003AD3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD09D6131E497700003AD3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD09D6151E497700003AD3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD09D61A1E497700003AD3AE /* CZYOrderServiceProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZYOrderServiceProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD09D61E1E497700003AD3AE /* CZYOrderServiceProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZYOrderServiceProtocolTests.m; sourceTree = "<group>"; };
+		AD09D6201E497700003AD3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD09D6251E497700003AD3AE /* CZYOrderServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZYOrderServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD09D6291E497700003AD3AE /* CZYOrderServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZYOrderServiceProtocolUITests.m; sourceTree = "<group>"; };
+		AD09D62B1E497700003AD3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD09D5FE1E497700003AD3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD09D6171E497700003AD3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD09D6221E497700003AD3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD09D5F81E497700003AD3AE = {
+			isa = PBXGroup;
+			children = (
+				AD09D6031E497700003AD3AE /* CZYOrderServiceProtocol */,
+				AD09D61D1E497700003AD3AE /* CZYOrderServiceProtocolTests */,
+				AD09D6281E497700003AD3AE /* CZYOrderServiceProtocolUITests */,
+				AD09D6021E497700003AD3AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD09D6021E497700003AD3AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD09D6011E497700003AD3AE /* CZYOrderServiceProtocol.app */,
+				AD09D61A1E497700003AD3AE /* CZYOrderServiceProtocolTests.xctest */,
+				AD09D6251E497700003AD3AE /* CZYOrderServiceProtocolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD09D6031E497700003AD3AE /* CZYOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				AD09D6071E497700003AD3AE /* AppDelegate.h */,
+				AD09D6081E497700003AD3AE /* AppDelegate.m */,
+				AD09D60A1E497700003AD3AE /* ViewController.h */,
+				AD09D60B1E497700003AD3AE /* ViewController.m */,
+				AD09D60D1E497700003AD3AE /* Main.storyboard */,
+				AD09D6101E497700003AD3AE /* Assets.xcassets */,
+				AD09D6121E497700003AD3AE /* LaunchScreen.storyboard */,
+				AD09D6151E497700003AD3AE /* Info.plist */,
+				AD09D6041E497700003AD3AE /* Supporting Files */,
+			);
+			path = CZYOrderServiceProtocol;
+			sourceTree = "<group>";
+		};
+		AD09D6041E497700003AD3AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD09D6051E497700003AD3AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD09D61D1E497700003AD3AE /* CZYOrderServiceProtocolTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD09D61E1E497700003AD3AE /* CZYOrderServiceProtocolTests.m */,
+				AD09D6201E497700003AD3AE /* Info.plist */,
+			);
+			path = CZYOrderServiceProtocolTests;
+			sourceTree = "<group>";
+		};
+		AD09D6281E497700003AD3AE /* CZYOrderServiceProtocolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD09D6291E497700003AD3AE /* CZYOrderServiceProtocolUITests.m */,
+				AD09D62B1E497700003AD3AE /* Info.plist */,
+			);
+			path = CZYOrderServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD09D6001E497700003AD3AE /* CZYOrderServiceProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD09D62E1E497700003AD3AE /* Build configuration list for PBXNativeTarget "CZYOrderServiceProtocol" */;
+			buildPhases = (
+				AD09D5FD1E497700003AD3AE /* Sources */,
+				AD09D5FE1E497700003AD3AE /* Frameworks */,
+				AD09D5FF1E497700003AD3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZYOrderServiceProtocol;
+			productName = CZYOrderServiceProtocol;
+			productReference = AD09D6011E497700003AD3AE /* CZYOrderServiceProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD09D6191E497700003AD3AE /* CZYOrderServiceProtocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD09D6311E497700003AD3AE /* Build configuration list for PBXNativeTarget "CZYOrderServiceProtocolTests" */;
+			buildPhases = (
+				AD09D6161E497700003AD3AE /* Sources */,
+				AD09D6171E497700003AD3AE /* Frameworks */,
+				AD09D6181E497700003AD3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD09D61C1E497700003AD3AE /* PBXTargetDependency */,
+			);
+			name = CZYOrderServiceProtocolTests;
+			productName = CZYOrderServiceProtocolTests;
+			productReference = AD09D61A1E497700003AD3AE /* CZYOrderServiceProtocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD09D6241E497700003AD3AE /* CZYOrderServiceProtocolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD09D6341E497700003AD3AE /* Build configuration list for PBXNativeTarget "CZYOrderServiceProtocolUITests" */;
+			buildPhases = (
+				AD09D6211E497700003AD3AE /* Sources */,
+				AD09D6221E497700003AD3AE /* Frameworks */,
+				AD09D6231E497700003AD3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD09D6271E497700003AD3AE /* PBXTargetDependency */,
+			);
+			name = CZYOrderServiceProtocolUITests;
+			productName = CZYOrderServiceProtocolUITests;
+			productReference = AD09D6251E497700003AD3AE /* CZYOrderServiceProtocolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD09D5F91E497700003AD3AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = czy;
+				TargetAttributes = {
+					AD09D6001E497700003AD3AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AD09D6191E497700003AD3AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD09D6001E497700003AD3AE;
+					};
+					AD09D6241E497700003AD3AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD09D6001E497700003AD3AE;
+					};
+				};
+			};
+			buildConfigurationList = AD09D5FC1E497700003AD3AE /* Build configuration list for PBXProject "CZYOrderServiceProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD09D5F81E497700003AD3AE;
+			productRefGroup = AD09D6021E497700003AD3AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD09D6001E497700003AD3AE /* CZYOrderServiceProtocol */,
+				AD09D6191E497700003AD3AE /* CZYOrderServiceProtocolTests */,
+				AD09D6241E497700003AD3AE /* CZYOrderServiceProtocolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD09D5FF1E497700003AD3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD09D6141E497700003AD3AE /* LaunchScreen.storyboard in Resources */,
+				AD09D6111E497700003AD3AE /* Assets.xcassets in Resources */,
+				AD09D60F1E497700003AD3AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD09D6181E497700003AD3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD09D6231E497700003AD3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD09D5FD1E497700003AD3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD09D60C1E497700003AD3AE /* ViewController.m in Sources */,
+				AD09D6091E497700003AD3AE /* AppDelegate.m in Sources */,
+				AD09D6061E497700003AD3AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD09D6161E497700003AD3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD09D61F1E497700003AD3AE /* CZYOrderServiceProtocolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD09D6211E497700003AD3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD09D62A1E497700003AD3AE /* CZYOrderServiceProtocolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD09D61C1E497700003AD3AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD09D6001E497700003AD3AE /* CZYOrderServiceProtocol */;
+			targetProxy = AD09D61B1E497700003AD3AE /* PBXContainerItemProxy */;
+		};
+		AD09D6271E497700003AD3AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD09D6001E497700003AD3AE /* CZYOrderServiceProtocol */;
+			targetProxy = AD09D6261E497700003AD3AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD09D60D1E497700003AD3AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD09D60E1E497700003AD3AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD09D6121E497700003AD3AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD09D6131E497700003AD3AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD09D62C1E497700003AD3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD09D62D1E497700003AD3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD09D62F1E497700003AD3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CZYOrderServiceProtocol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYOrderServiceProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD09D6301E497700003AD3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CZYOrderServiceProtocol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYOrderServiceProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD09D6321E497700003AD3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CZYOrderServiceProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYOrderServiceProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZYOrderServiceProtocol.app/CZYOrderServiceProtocol";
+			};
+			name = Debug;
+		};
+		AD09D6331E497700003AD3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CZYOrderServiceProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYOrderServiceProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZYOrderServiceProtocol.app/CZYOrderServiceProtocol";
+			};
+			name = Release;
+		};
+		AD09D6351E497700003AD3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CZYOrderServiceProtocolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYOrderServiceProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CZYOrderServiceProtocol;
+			};
+			name = Debug;
+		};
+		AD09D6361E497700003AD3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CZYOrderServiceProtocolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYOrderServiceProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CZYOrderServiceProtocol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD09D5FC1E497700003AD3AE /* Build configuration list for PBXProject "CZYOrderServiceProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD09D62C1E497700003AD3AE /* Debug */,
+				AD09D62D1E497700003AD3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD09D62E1E497700003AD3AE /* Build configuration list for PBXNativeTarget "CZYOrderServiceProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD09D62F1E497700003AD3AE /* Debug */,
+				AD09D6301E497700003AD3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD09D6311E497700003AD3AE /* Build configuration list for PBXNativeTarget "CZYOrderServiceProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD09D6321E497700003AD3AE /* Debug */,
+				AD09D6331E497700003AD3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD09D6341E497700003AD3AE /* Build configuration list for PBXNativeTarget "CZYOrderServiceProtocolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD09D6351E497700003AD3AE /* Debug */,
+				AD09D6361E497700003AD3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD09D5F91E497700003AD3AE /* Project object */;
+}
